@@ -41,4 +41,27 @@ header{
 .servicios{
     display: grid;
     grid-template-columns: auto auto auto;
+    width: 100%;
+    grid-gap: 20px;
+}
+.card{
+    background-color: var(--blue-oscuro);
+    border: var(--blue) 2px solid;
+    border-radius: 10px;
+    padding: 30px 50px;
+}
+.card h3{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: var(--black);
+    text-align: center;
+}
+p{
+    font-size: 16px;
+
+}
+.card p{
+    text-align: center;
+    color: var(--black);
 }
