@@ -21,3 +21,5 @@ Este sitio web esta estructurado por modulos fotograficos, diseño grafico, Desa
 [La Goat](https://twitch.tv/feirlygab/)
 
 `<p> hola mundo </p>`
+
+![guitarra](assets/images/grx40-ca-guitarra-electrica-tipo-stratocaster-ibanez-gio-1024x1024.jpg)
