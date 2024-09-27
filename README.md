@@ -23,3 +23,9 @@ Este sitio web esta estructurado por modulos fotograficos, diseño grafico, Desa
 `<p> hola mundo </p>`
 
 ![guitarra](assets/images/grx40-ca-guitarra-electrica-tipo-stratocaster-ibanez-gio-1024x1024.jpg)
+
+| COD | USER | EMAIL |
+|-----|------|-------|
+|ED001| LUCY | LUCY@GMAIL.COM|
+|ED002| GABO | GABO@GMAIL.COM|
+|ED003| JESUS| JESUSMAMADO@GMAIL.COM|
