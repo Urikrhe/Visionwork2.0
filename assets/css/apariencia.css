@@ -7,28 +7,33 @@ body{
 :root{
     --blue:#001F3F;
     --beige:#EAD8B1;
-    --blue:#6A9AB0;
+    --blue-claro:#6A9AB0;
     --blue-oscuro:#3A6D8C;
     --black: #000000;
     --white: #fff;
 }
-.roboto-mono{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400px;
-    font-style: normal;
-  }
-.open-sans{
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300px;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
 header{
     background-color: var(--blue);
     color: var(--beige);
     width: 100%;
-    height: 80px;
+    height: 100px;
+}
+.menu{
+    list-style: none !important;
+    float: right;
+    margin: 0 10px;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    color: var(--beige);
+    font-size: 36px;
+    font-family: monospace;
+    font-weight: 600;
+    background-color: var(--blue-oscuro);
+    padding: 10px;
+    border-radius: 3px;
+}
+.menu li a{
+    text-decoration: none;
 }
