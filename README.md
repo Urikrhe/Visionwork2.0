@@ -3,7 +3,7 @@
 
 Este sitio web esta estructurado por modulos fotograficos, diseño grafico, Desarrollo y mas
 
-> Empieza donde estas, usa lo que tienes, haz lo que puedes Artur Ashe
+> *Empieza donde estas, usa lo que tienes, haz lo que puedes* **Artur Ashe**
 
 ### Desarrolladores
     * Carlos
