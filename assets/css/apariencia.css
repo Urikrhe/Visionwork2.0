@@ -1,8 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  /*clase*/
+
 body{
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.2em; 
 }
 :root{
     --blue:#001F3F;
@@ -12,6 +122,12 @@ body{
     --black: #000000;
     --white: #fff;
 }
+a{
+    color: var(--blue)
+}
+a:visited{color: var(--blue);}
+a:hover{color: var(--beige)}
+
 header{
     background-color: var(--blue);
     color: var(--beige);
@@ -28,11 +144,12 @@ header{
     display: inline-block;
     color: var(--beige);
     font-size: 36px;
-    font-family: monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     background-color: var(--blue-oscuro);
-    padding: 15px;
+    padding: 20px;
     border-radius: 3px;
+    margin-top: 20px;
 }
 .menu li a{
     text-decoration: none;
@@ -41,8 +158,10 @@ header{
 .servicios{
     display: grid;
     grid-template-columns: auto auto auto;
-    width: 100%;
+    width: 94%;
     grid-gap: 20px;
+    padding-right: 3%;
+    padding-left: 3%;
 }
 .card{
     background-color: var(--blue-oscuro);
@@ -64,4 +183,88 @@ p{
 .card p{
     text-align: center;
     color: var(--black);
+}
+
+/*INICIO DE ESTILO PARA TITULO DE SECCION*/
+.titulo-section h2{
+text-align: center;
+font-size: 54px;
+font-weight: 800;
+}
+
+.titulo-section p{
+    font-size: 18px;
+}
+.titulo-section{
+    text-align: center;
+}
+.primary-color h2{
+    text-align: center;
+    color: var(--white);
+    font-size: 54px;
+    font-weight: 800;
+}
+
+.primary-color {
+    text-align: center;
+    background-color: #3A6D8C;
+    padding: 15px;
+    margin-top: 10px;
+}
+.primary-color p{
+    color: var(--white);
+    font-size: 20px;
+}
+
+/*padding*/
+.padding-20px{
+    padding: 20px;
+}
+.padding-50px{
+    padding: 50px;
+}
+.padding-100px{
+    padding: 100px;
+}
+.primary-button{
+    background-color: var(--blue-claro);
+    color: var(--white);
+    font-weight: 800;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+}
+.primary-button:hover{
+    background-color: var(--blue);
+    color: var(--white);
+}
+/*ccs seccion contacto*/
+
+.contacto{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 94%;
+    grid-gap: 20px;
+}
+.right-colmn input[type="text"],[type="tel"],[type="email"]{
+    width: 95%;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: var(--blue-claro);
+    font-size: 18px;
+    color: var(--blue);
+    margin-bottom: 20px;
+}
+.right-colmn label{
+    width: 100%;
+    font-size: 18px;
+    color: var(--black);
+    margin-bottom: 15px;
+}
+.right-colmn textarea{
+    width: 100%;
+    font-size: 18px;
+    color: var(--black);
+    margin-bottom: 15px;
 }
