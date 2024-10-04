@@ -242,10 +242,12 @@ font-weight: 800;
 /*ccs seccion contacto*/
 
 .contacto{
+    padding: 10px;
     display: grid;
     grid-template-columns: auto auto;
     width: 94%;
     grid-gap: 20px;
+    margin: 3px;
 }
 .right-colmn input[type="text"],[type="tel"],[type="email"]{
     width: 95%;
@@ -267,4 +269,24 @@ font-weight: 800;
     font-size: 18px;
     color: var(--black);
     margin-bottom: 15px;
+}
+.submit{
+    padding: 15px;
+    font-size: 20px;
+    background-color: var(--blue-claro);
+    border-radius: 15px;
+    border-bottom: 10px;
+    color: var(--white);
+-webkit-box-shadow: 20px 10px 31px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 20px 10px 31px 0px rgba(0,0,0,0.75);
+box-shadow: 20px 10px 31px 0px rgba(0,0,0,0.75);
+width: 100%;
+}
+.contacto h2{
+    font-size: 36px;
+    color: var(--blue-claro);
+}
+.contacto p{
+    font-size: 20px;
+    
 }
